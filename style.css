@@ -67,11 +67,13 @@
 	background-color: white;
 	font-family: jost;
 	font-size: 20px;
-	text-shadow: 2px 2px 15px;
 }
 .page-header button:hover {
 	background-color: red;
 	color: white;
+}
+.page-header button:focus {
+	outline: none;
 }
 
 #search {
@@ -82,14 +84,18 @@
 	font-size: 1em;
 	padding: 7px;
 	border-radius: 30px;
-	box-shadow: 1px 1px 20px 3px red;
 	width: 80px;
 	transition: width 0.5s ease-in-out;
-
+	background-color: rgb(230,230,230);
+}
+#search:hover {
+	color: rgb(0,0,0);
+	background-color: rgb(200,200,200);
 }
 #search:focus {
 	border-radius: 30px;
 	width: 20%;
+	outline: none;
 }
 
 .page-footer {

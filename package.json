@@ -1,0 +1,24 @@
+{
+  "name": "covid19india-demowebsite",
+  "version": "1.0.0",
+  "description": "Link : https://atTheShikhar.github.io/Covid19India-DemoWebsite/",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atTheShikhar/Covid19India-DemoWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atTheShikhar/Covid19India-DemoWebsite/issues"
+  },
+  "homepage": "https://github.com/atTheShikhar/Covid19India-DemoWebsite#readme",
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
